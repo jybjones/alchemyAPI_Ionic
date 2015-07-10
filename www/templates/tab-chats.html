@@ -1,15 +1,32 @@
-<ion-view view-title="Chats">
-  <ion-content>
-    <form>
-      <label>Search for New on...</label>
-      <input type="text" placeholder="search term...">
+<ion-view view-title ="News">
+  <ion-content class="content">
+
+<div class="list">
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Search for News on...</span>
+    <input type="text" placeholder="search term...">
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">That term is a:</span>
+    <select>
+        <option value="person">Person</option>
+        <option value="city">City</option>
+        <option value="company">Company</option>
+      </select>
+  </label>
+</div>
+
+    <!-- <form>
+      <label>Search for News on...</label>
+      <input type="text" class="search" placeholder="search term...">
       <label>That term is a:</label>
       <select>
         <option value="person">Person</option>
         <option value="city">City</option>
         <option value="company">Company</option>
       </select>
-    </form>
+    </form> -->
+
     <!-- <ion-list>
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
         <img ng-src="{{chat.face}}">
