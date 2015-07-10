@@ -3,10 +3,10 @@
   <name>alchemyAPI_Ionic</name>
   <description>
         An Ionic Framework and Cordova project.
-    </description>
-  <author email="jybjones@gmail.com", "kyleturco@gmail.com">
+  </description>
+  <author email="jybjones@gmail.com">
       Ionic Project by: Jennifer Jones, Kyle Turco, James Logan
-    </author>
+  </author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
