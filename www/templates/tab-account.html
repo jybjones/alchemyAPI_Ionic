@@ -1,7 +1,8 @@
 <ion-view view-title="Account">
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="art in repeat" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <a href="{{art.source.enriched.url.url}}">{{art.source.enriched.url.title}}</a>
       </ion-item>
     </ion-list>
 

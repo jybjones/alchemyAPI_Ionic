@@ -10,10 +10,11 @@ angular.module('starter.controllers', [])
 
     });
 
-  })
+
+})
 
 .controller('DashCtrl', function($scope, $rootScope) {
-
+  $scope.repeat = $rootScope.pos;
 })
 
 .controller('ChatsCtrl', function($scope, Chats, $rootScope) {
@@ -64,6 +65,7 @@ angular.module('starter.controllers', [])
       .success(function(data) {
         $scope.sortPosNeg(data);
       });
+  }
 
 })
 
@@ -72,5 +74,5 @@ angular.module('starter.controllers', [])
 })
 
 .controller('AccountCtrl', function($scope, $rootScope) {
-  $scope.pos = $rootScope.pos;
+  $scope.repeat = $rootScope.neg;
 });
