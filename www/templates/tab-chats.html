@@ -2,13 +2,14 @@
   <ion-content>
     <form>
       <label>Search for New on...</label>
-      <input type="text" placeholder="search term...">
+      <input type="text" placeholder="search term..." ng-model="params.term">
       <label>That term is a:</label>
-      <select>
+      <select ng-model="params.type">
         <option value="person">Person</option>
         <option value="city">City</option>
         <option value="company">Company</option>
       </select>
+      <button ng-click="getURL()"></button>
     </form>
     <!-- <ion-list>
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
