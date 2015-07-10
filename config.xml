@@ -4,8 +4,8 @@
   <description>
         An Ionic Framework and Cordova project.
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="jybjones@gmail.com", "kyleturco@gmail.com">
+      Ionic Project by: Jennifer Jones, Kyle Turco, James Logan
     </author>
   <content src="index.html"/>
   <access origin="*"/>
